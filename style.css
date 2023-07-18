@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a4a4a4;
+  font-family: Arial, sans-serif;
+}
+
+.monFormulaire {
+  width: 500px;
+  padding: 40px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.check {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: 8px;
+}

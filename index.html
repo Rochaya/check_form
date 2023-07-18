@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verification formulaire</title>
+</head>
+<body>
+    <form class="monFormulaire">
+        <label for="nom">Nom:</label>
+        <input class="input" type="text" id="nom"><br>
+
+        <label for="prenom">Prénom:</label>
+        <input class="input" type="text" id="prenom"><br>
+
+        <label for="age">Âge:</label>
+        <input class="input" type="number" id="age"><br>
+        <span id="ageError" class="error-message"></span>
+
+        <label for="email">Email:</label>
+        <input class="input" type="email" id="email"><br>
+        <span id="emailError" class="error-message"></span>
+
+        <label for="confirmationEmail">Confirmation Email:</label>
+        <input class="input" type="email" id="confirmedEmail"><br>
+        <span id="emailError" class="error-message "></span>
+
+        <label for="password">Mot de passe:</label>
+        <input class="input" type="password" id="password"><br>
+        <span id="passwordError" class="error-message"></span>
+
+        <label for="confirmationPassword">Confirmation Mot de passe:</label>
+        <input class="input" type="password" id="confirmedPassword"><br>
+        <span id="passwordError" class="error-message"></span>
+
+        <label for="accepterCGU" class="checkbox-label">J'accepte les CGU:</label>
+        <input class="check" type="checkbox" id="acceptCGU"><br>
+
+        <input class="submit" type="submit" value="Envoyer">
+    </form>
+    <script src="index.js"></script> 
+</body>
+</html>
